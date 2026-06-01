@@ -1,7 +1,28 @@
+#Sanyi Másodperc
+#balazs ora
+#Dani perc
 import turtle
 
+turtle.color("blue")
+turtle.goto(0, 0)
+turtle.fillcolor("blue")
+turtle.pensize(10)
+turtle.right(3)
+turtle.forward(200)
+
+turtle.pensize(7)
+turtle.goto(0, 0)
+turtle.right(50)
 turtle.color("green")
 turtle.forward(50)
 turtle.begin_fill()
 turtle.fillcolor("green")
+turtle.goto(0, 0)
+turtle.right(200)
+
+turtle.pensize(2)
+turtle.color("red")
+turtle.forward(200)
+turtle.begin_fill()
+turtle.fillcolor("red")
 turtle.done()
